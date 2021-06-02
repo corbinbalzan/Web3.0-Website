@@ -1,0 +1,131 @@
+/*  ----- DESIGNED AND DEVELOPED BY CORBIN BALZAN ------- */
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#corb1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 19%;
+  margin-bottom: 0;
+}
+
+#corb2 {
+  text-align: center;
+  margin-top: 0%;
+  font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+}
+
+#enter1 {
+  font-size: 1.3em;
+  padding: 0.7% 2%;
+  color: #03bcff;
+  border: 3px solid #03bcff;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2%;
+  -webkit-transition: color 0.35s;
+  transition: color 0.35s;
+  font-family: "Raleway", sans-serif;
+}
+
+.enter-button {
+  text-align: center;
+}
+
+#enter1:hover {
+  font-size: 1.3em;
+  padding: 0.7% 2%;
+  background-color: #03bcff;
+  color: #fff;
+  border: 3px solid #03bcff;
+  border-radius: 5px;
+  text-decoration: none;
+  /*
+	position:absolute;
+	top:54%;
+	left:45%;
+	*/
+}
+
+.button-row {
+  width: 100;
+  /* background-color: #eee; */
+  text-align: center;
+}
+
+.button-row button {
+  margin: 10px 15px;
+
+  background: #000;
+  border-radius: 6px;
+  border: 1.5px solid #fff;
+  width: 150px;
+  height: 45px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.button-row button i {
+  margin-right: 5px;
+}
+
+.button-row .website {
+	width: 330px !important;
+}
+
+.button-row button:hover {
+	transition: all 0.25s;
+	background-color: #fff;
+	color: #000;
+	border-color: #fff;
+	cursor: pointer;
+
+}
+
+/* #linkedin:hover {
+  color: #0e76a8;
+  border-color: #0e76a8;
+} */
+
+.first-row {
+  margin-top: 20px;
+}
+
+@media (max-width: 769px) {
+  #enter1 {
+    font-size: 1.6em;
+    padding: 1% 2.5%;
+  }
+
+  #enter1:hover {
+    font-size: 1.6em;
+    padding: 1% 2.5%;
+  }
+}
+
+@media (min-width: 700px) {
+  #corb1 {
+    margin-top: 13%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #corb1 {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 1450px) {
+  #corb1 {
+    margin-top: 7%;
+  }
+}
